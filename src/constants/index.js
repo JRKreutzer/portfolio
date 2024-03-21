@@ -70,3 +70,109 @@ export const about = [
         icon: 'bx bxs-graduation'
     }
 ]
+
+export const skillsFrontBasic = [
+    {
+        nome: 'HTML',
+        nivel: 'Intermediário',
+    },
+    {
+        nome: 'CSS',
+        nivel: 'Intermediário',
+    },
+    {
+        nome: 'JavaScript',
+        nivel: 'Intermediário',
+    }
+]
+
+export const skillsFrontAdvanced = [
+    {
+        nome: 'TypeScript',
+        nivel: 'Básico',
+    },
+    {
+        nome: 'Git / Github',
+        nivel: 'Básico',
+    },
+    {
+        nome: 'React JS',
+        nivel: 'Intermediário',
+    },
+    {
+        nome: 'Context API',
+        nivel: 'Básico',
+    },
+]
+
+export const skillsBackFront = [
+    {
+        nome: 'Node JS',
+        nivel: 'Básico',
+    },
+    {
+        nome: 'MySQL',
+        nivel: 'Intermediário',
+    },
+    {
+        nome: 'MongoDB',
+        nivel: 'Básico',
+    },
+    {
+        nome: 'Express JS',
+        nivel: 'Básico',
+    },
+]
+
+export const skillsBackLang = [
+    {
+        nome: 'Python',
+        nivel: 'Intermediário',
+    },
+    {
+        nome: 'C',
+        nivel: 'Básico',
+    },
+    {
+        nome: 'C++',
+        nivel: 'Básico',
+    },
+    {
+        nome: 'C#',
+        nivel: 'Básico',
+    },
+    {
+        nome: 'Java',
+        nivel: 'Básico',
+    }
+]
+
+export const skillsAdicionaisPessoais = [
+    {
+        nome: 'Criatividade',
+    },
+    {
+        nome: 'Aprendizado Rápido',
+    },
+    {
+        nome: 'Adaptabilidade',
+    },
+    {
+        nome: 'Resolução de Problemas',
+    }
+]
+
+export const skillsAdicionaisGerais = [
+    {
+        nome: 'Fluência em Inglês',
+    },
+    {
+        nome: 'Comunicação Eficaz',
+    },
+    {
+        nome: 'Trabalho em Equipe',
+    },
+    {
+        nome: 'Gestão de Tempo',
+    }
+]

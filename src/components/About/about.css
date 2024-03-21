@@ -11,7 +11,7 @@
 }
 
 .about__info {
-    grid-template-columns: repeat(3, 170px);
+    grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 }
@@ -86,7 +86,7 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
     .about__info {
         grid-template-columns: repeat(2, 1fr);
     }
