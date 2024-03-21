@@ -52,3 +52,21 @@ export const socials = [
         path: 'https://www.linkedin.com/in/josé-kreutzer-614372173/',
     }
 ]
+
+export const about = [
+    {
+        titulo: 'Experiência',
+        valor: ['Há X Anos Trabalhando'],
+        icon: 'bx bx-award'
+    },
+    {
+        titulo: 'Completados',
+        valor: ['X + Projetos', 'X + Cursos'],
+        icon: 'bx bx-briefcase-alt'
+    },
+    {
+        titulo: 'Andamento',
+        valor: ['X Projetos','X Cursos'],
+        icon: 'bx bxs-graduation'
+    }
+]

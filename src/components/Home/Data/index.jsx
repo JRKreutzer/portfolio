@@ -55,7 +55,7 @@ const Data = () => {
               </h1>
               <h3 className="home__subtitle">Desenvolvedor Front-end</h3>
               <p className="home__description">
-                  Sou um desenvolvedor front-end apaixonado por criar experiências digitais incríveis. Atualmente, uso HTML, CSS, JavaScript e ReactJS para criar interfaces intuitivas e visualmente cativantes. Estou sempre buscando aprender e aplicar as últimas tendências e técnicas para proporcionar aos usuários uma experiência única e memorável.
+                  Sou um desenvolvedor front-end apaixonado por criar experiências digitais incríveis.
               </p>
               <a href="#contact" className="button button-flex">
                   Diga Olá
