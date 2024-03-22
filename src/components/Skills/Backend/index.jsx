@@ -9,8 +9,8 @@ const Backend = () => {
                 <div className="skills__group">
                     {
                         skillsBackFront.map((skill, i) => (
-                                <div className="skills__data">
-                                    <i class='bx bx-badge-check'></i>
+                                <div key={i} className="skills__data">
+                                    <i className='bx bx-badge-check'></i>
                                     <div>
                                         <h3 className="skills__name">{skill.nome}</h3>
                                         <span className="skills__level">{skill.nivel}</span>
@@ -22,8 +22,8 @@ const Backend = () => {
                 <div className="skills__group">
                     {
                         skillsBackLang.map((skill, i) => (
-                                <div className="skills__data">
-                                    <i class='bx bx-badge-check'></i>
+                                <div key={i} className="skills__data">
+                                    <i className='bx bx-badge-check'></i>
                                     <div>
                                         <h3 className="skills__name">{skill.nome}</h3>
                                         <span className="skills__level">{skill.nivel}</span>

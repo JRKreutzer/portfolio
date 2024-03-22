@@ -9,8 +9,8 @@ const HabilidadesAdicionais = () => {
             <div className="skills__group">
                 {
                     skillsAdicionaisGerais.map((skill, i) => (
-                            <div className="skills__data">
-                                <i class='bx bx-badge-check'></i>
+                            <div key={i} className="skills__data">
+                                <i className='bx bx-badge-check'></i>
                                 <div>
                                     <h3 className="skills__name">{skill.nome}</h3>
                                 </div>
@@ -21,8 +21,8 @@ const HabilidadesAdicionais = () => {
             <div className="skills__group">
                 {
                     skillsAdicionaisPessoais.map((skill, i) => (
-                            <div className="skills__data">
-                                <i class='bx bx-badge-check'></i>
+                            <div key={i} className="skills__data">
+                                <i className='bx bx-badge-check'></i>
                                 <div>
                                     <h3 className="skills__name">{skill.nome}</h3>
                                 </div>

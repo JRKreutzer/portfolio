@@ -56,17 +56,17 @@ export const socials = [
 export const about = [
     {
         titulo: 'Experiência',
-        valor: ['Há X Anos Trabalhando'],
+        valor: ['Recém-formado'],
         icon: 'bx bx-award'
     },
     {
         titulo: 'Completados',
-        valor: ['X + Projetos', 'X + Cursos'],
+        valor: ['20 + Projetos', '32 + Cursos'],
         icon: 'bx bx-briefcase-alt'
     },
     {
         titulo: 'Andamento',
-        valor: ['X Projetos','X Cursos'],
+        valor: ['8 Projetos','1 Formação'],
         icon: 'bx bxs-graduation'
     }
 ]
@@ -175,4 +175,50 @@ export const skillsAdicionaisGerais = [
     {
         nome: 'Gestão de Tempo',
     }
+]
+
+export const cursosConcluidos = [
+	{
+		nome: 'Formação A partir do zero: iniciante em programação',
+		certificado: 'https://cursos.alura.com.br/degree/certificate/c834bf13-822a-4c5f-9267-80837e911e57?lang=pt_BR'
+	},
+	{
+		nome: 'Formação A partir do zero: HTML e CSS para projetos web',
+		certificado: 'https://cursos.alura.com.br/degree/certificate/6eab8905-2da6-4069-a2c4-b8b1b13e0146?lang=pt_BR'
+	},
+	{
+		nome: 'Formação Aprenda a programar em JavaScript com foco no back-end',
+		certificado: 'https://cursos.alura.com.br/degree/certificate/4336c68b-d850-43ac-af2b-02f89b54de91?lang=pt_BR'
+	},
+	{
+		nome: 'Formação Desenvolva aplicações Web com JavaScript',
+		certificado: 'https://cursos.alura.com.br/degree/certificate/377b26b8-b424-4db5-ae0a-8753f8b3e182?lang=pt_BR'
+	},
+	{
+		nome: 'Formação Explore React com JavaScript',
+		certificado: 'https://cursos.alura.com.br/degree/certificate/0447ddc7-b1c4-48fa-9ef5-3a82b2041e74?lang=pt_BR'
+	},
+	{
+		nome: 'Algoritmos e Lógica de Programação',
+		certificado: 'http://ude.my/UC-a50efaf6-a215-4056-bba2-23194c3907cf'
+	},
+	{
+		nome: 'Introdução à Ciência da Computação com Python',
+		certificado: 'https://coursera.org/share/c923d68036c9a1f0de68299109728b21'
+	}
+]
+
+export const cursosAndamento = [
+	{
+		nome: 'Formação Gerencie aplicações React com Typescript',
+		cursos: ['React: escrevendo com Typescript','React: estilize componentes com Styled Components e manipule arquivos estáticos', 'React: conhecendo a biblioteca React Router', 'React: integrando seu projeto React com APIs', 'HTTP: entendendo a web por baixo dos panos', 'React: gerenciando estado com Recoil', 'React: testando os seus componentes', 'React: otimizando a performance'],
+		link: 'https://www.alura.com.br/formacao-react-ts'
+	}	
+]
+
+export const cursosFuturos = [
+	{
+		nome: ['Melhore sua aplicação React com o Next.js', 'Next.js e Tailwind: construindo um design system', 'Next.js 14: desenvolvendo aplicações robustas com alta produtividade', 'APIs com Node.js e Express'],
+		link: ['https://cursos.alura.com.br/formacao-next-js?preRequirementFrom=react-nextjs-fullstack', 'https://cursos.alura.com.br/formacao-next-js-tailwind-design-system', 'https://cursos.alura.com.br/formacao-next-js-14-aplicacoes-robustas-alta-produtividade', 'https://cursos.alura.com.br/formacao-node-js-express'],
+	}	
 ]

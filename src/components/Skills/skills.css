@@ -83,12 +83,23 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
-    .skills__box {
-        column-gap: 1.25rem;
+@media screen and (max-width: 390px) {
+    .skills__name {
+        font-size: var(--small-font-size);
+    }
+}
+
+/* For tiny devices */
+@media screen and (max-width: 280px) {
+    .skills__container {
+        grid-template-columns: 260px;
     }
 
-    .skills_name {
-        font-size: var(--small-font-size);
+    .skills__box {
+        column-gap: 0.5rem;
+    }
+
+    .skills__name {
+        font-size: var(--tiny-font-size);
     }
 }
