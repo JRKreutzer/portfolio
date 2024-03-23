@@ -246,3 +246,27 @@ export const testimoniais = [
         description: 'A really good job, all aspects of the project were followed step by step and with good results. Muito pirocudo.'
     }
 ]
+
+export const contact = [
+    {
+        icon: 'bx bx-mail-send',
+        title: 'Email',
+        data: 'jose.kreutzer@gmail.com',
+        ref: 'mailto:jose.kreutzer@gmail.com',
+        text: 'Me mande um email'
+    },
+    {
+        icon: 'bx bxl-whatsapp',
+        title: 'Whatsapp',
+        data: '49 99979-6363',
+        ref: 'https://api.whatsapp.com/send?phone=5549999796363&text=Olá, podemos conversar?',
+        text: 'Me mande um whats'
+    },
+    {
+        icon: 'bx bxl-messenger',
+        title: 'Messenger',
+        data: 'user.fb123',
+        ref: 'https://m.me/100054464409147',
+        text: 'Me mande um messenger'
+    }
+]
