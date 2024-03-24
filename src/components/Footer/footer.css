@@ -76,7 +76,7 @@
 }
   
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
     .footer__list {
         flex-direction: column;
         align-items: center;

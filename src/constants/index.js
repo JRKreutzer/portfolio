@@ -20,7 +20,7 @@ export const links = [
         active: false
     },
     {
-        name: "Serviços",
+        name: "Formações",
         classe: 'uil uil-briefcase-alt',
         path: '#services',
         active: false

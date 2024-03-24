@@ -44,7 +44,7 @@ const Contact = () => {
                         
                         {
                             contact.map((item, i) => (
-                                <div className='contact__card'>
+                                <div className='contact__card' key={i}>
                                     <i className={`${item.icon} contact__card-icon`}></i>
                                     <h3 className="contact__card-title">{item.title}</h3>
                                     <span className="contact__card-data">{item.data}</span>

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import Qualification from './components/Qualification';
+import ScrollUp from './components/ScrollUp';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
@@ -23,6 +24,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
+      <ScrollUp />
     </>
   )
 }
