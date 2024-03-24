@@ -42,15 +42,15 @@ export const links = [
 
 export const socials = [
     {
-        classe: 'uil uil-instagram',
+        classe: ['uil uil-instagram', 'bx bxl-instagram'],
         path: 'https://www.instagram.com/jr.kreutzer/',
     },
     {
-        classe: 'uil uil-github-alt',
+        classe: ['uil uil-github-alt', 'bx bxl-github'],
         path: 'https://github.com/JRKreutzer',
     },
     {
-        classe: 'uil uil-linkedin-alt',
+        classe: ['uil uil-linkedin-alt', 'bx bxl-linkedin'],
         path: 'https://www.linkedin.com/in/josé-kreutzer-614372173/',
     }
 ]

@@ -16,12 +16,19 @@
 }
 
 .home__social-icon {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.25rem;
     color: var(--title-color);
+    border-radius: 50%;
 }
 
 .home__social-icon:hover {
-    color: var(--title-color-dark);
+    background-color: var(--title-color);
+    color: var(--container-color);
 }
 
 .home__title {

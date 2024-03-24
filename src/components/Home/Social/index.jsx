@@ -1,12 +1,12 @@
 import { socials } from '../../../constants'
 
-const Social = () => {
+const Social = ({className, footer}) => {
     return (
-        <div className='home__social'>
+        <div className={`${className}__social`}>
             {
                 socials.map((item, i) => (
-                    <a key={i} href={item.path} className='home__social-icon' rel='noreferrer' target='_blank'>
-                        <i className={item.classe}></i>
+                    <a key={i} href={item.path} className={`${className}__social-icon`} rel='noreferrer' target='_blank'>
+                        <i className={footer ? item.classe[1] : item.classe[0] }></i>
                     </a>
                 ))
             }            
