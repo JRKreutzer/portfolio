@@ -1,8 +1,22 @@
-import { links } from '../../constants'
+import { useLinkContext } from '../../context/LinkContext';
 import Social from '../Home/Social'
 import './footer.css'
 
 const Footer = () => {
+
+    const { linksState, setLinksState } = useLinkContext();
+
+    const handleClick = (clickedLink) => {
+        const updatedLinks = linksState.map(link => {
+            if (link.name === clickedLink.name) {
+                return { ...link, active: true };
+            } else {
+                return { ...link, active: false };
+            }
+        });
+        setLinksState(updatedLinks);
+    };
+
     return (
         <footer className="footer">
             <div className="footer__container container">
@@ -10,8 +24,8 @@ const Footer = () => {
                 <ul className='footer__list'>
 
                     {
-                        links.map((link, i) => (
-                            <li key={i}>
+                        linksState.map((link, i) => (
+                            <li onClick={() => handleClick(link)} key={i}>
                                 <a href={link.path} className='footer__link'>{link.name}</a>
                             </li>
                         ))

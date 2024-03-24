@@ -5,26 +5,27 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import Qualification from './components/Qualification';
-import ScrollUp from './components/ScrollUp';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
+import { LinkProvider } from './context/LinkContext';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <main className='main'>
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Testimonials />
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollUp />
+      <LinkProvider>
+        <Header />
+        <main className='main'>
+          <Home />
+          <About />
+          <Skills />
+          <Services />
+          <Qualification />
+          <Testimonials />
+          <Contact />
+        </main>
+        <Footer />
+      </LinkProvider>
     </>
   )
 }

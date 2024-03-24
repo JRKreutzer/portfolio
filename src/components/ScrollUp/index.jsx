@@ -1,7 +1,7 @@
 import './scrollUp.css'
 
 const ScrollUp = () => {
-
+  
   window.addEventListener("scroll", function() {
     const scrollUp = document.querySelector(".scrollup")
     if (this.scrollY >=560) {
