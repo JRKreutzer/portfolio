@@ -1,4 +1,5 @@
 import { testimonial1Img, testimonial2Img, testimonial3Img } from "../utils";
+import { academiaImg, aluraBooksImg, aluraBooksJSImg, aluraMidiImg, aluraPlayImg, aluraPlusImg, bookClubImg, brainwaveImg, cineTagImg, contextAPIImg, culturamaImg, fokusImg, numeroSecretoImg, numeroSecretoVozImg, spaceAppImg } from "../utils";
 
 export const links = [
     {
@@ -225,6 +226,185 @@ export const cursosFuturos = [
 	}	
 ];
 
+export const portfolio = [
+    {
+        id: 1,
+        image: academiaImg,
+        title: 'Academia',
+        category: ['React', 'JavaScript'],
+        path: 'https://portfolio-academia.vercel.app',
+        github: 'https://github.com/JRKreutzer/portfolio-academia'
+    },
+    {
+        id: 2,
+        image: brainwaveImg,
+        title: 'Brainwave',
+        category: ['React', 'JavaScript', 'Tailwind'],
+        path: 'https://brainwave-tailwind.vercel.app',
+        github: 'https://github.com/JRKreutzer/brainwave-tailwind'
+    },
+    {
+        id: 3,
+        image: cineTagImg,
+        title: 'Cine Tag',
+        category: ['React', 'JavaScript', 'ContextAPI', 'useParams', 'FetchAPI'],
+        path: 'https://vercel.com/jrkreutzers-projects/cinetag',
+        github: 'https://github.com/JRKreutzer/cinetag'
+    },
+    {
+        id: 4,
+        image: contextAPIImg,
+        title: 'ContextAPI',
+        category: ['React', 'JavaScript', 'ContextAPI', 'useReducer', 'UseMemo'],
+        path: 'https://context-api-ten-kappa.vercel.app',
+        github: 'https://github.com/JRKreutzer/context-api'
+    },
+    {
+        id: 5,
+        image: spaceAppImg,
+        title: 'Space App',
+        category: ['React', 'JavaScript', 'Styled-Components'],
+        path: 'https://space-app-tau-ashen.vercel.app',
+        github: 'https://github.com/JRKreutzer/space-app'
+    },
+    {
+        id: 6,
+        image: bookClubImg,
+        title: 'Book Club',
+        category: ['React', 'JavaScript'],
+        path: 'https://book-club-peach.vercel.app',
+        github: 'https://github.com/JRKreutzer/book-club'
+    },
+    {
+        id: 7,
+        image: numeroSecretoVozImg,
+        title: 'Número Secreto com Voz',
+        category: ['JavaScript', 'Web Speech API'],
+        path: 'https://jogo-numero-secreto-reconhecimento-cbmk90aiy.vercel.app',
+        github: 'https://github.com/JRKreutzer/jogo-numero-secreto-reconhecimento-voz'
+    },
+    {
+        id: 8,
+        image: aluraBooksImg, 
+        title: 'Alura Books',
+        category: ['Mobile First', 'HTML', 'CSS', 'SwiperJS'],
+        path: 'https://alura-books-blue-rho.vercel.app',
+        github: 'https://github.com/JRKreutzer/alura-books'
+    },
+    {
+        id: 9,
+        image: aluraPlusImg,
+        title: 'Alura Plus',
+        category: ['HTML', 'CSS'],
+        path: 'https://alura-plus-azure-five.vercel.app',
+        github: 'https://github.com/JRKreutzer/alura-plus'
+    },
+    {
+        id: 10,
+        image: numeroSecretoImg,
+        title: 'Número Secreto',
+        category: ['JavaScript'],
+        path: 'https://jogo-do-numero-secreto-omega.vercel.app',
+        github: 'https://github.com/JRKreutzer/jogo-do-numero-secreto'
+    },
+    {
+        id: 11,
+        image: aluraBooksJSImg,
+        title: 'Alura Books JS',
+        category: ['JavaScript', 'FetchAPI'],
+        path: 'https://alura-books-js-ten.vercel.app',
+        github: 'https://github.com/JRKreutzer/alura-books-js'
+    },
+    {
+        id: 12,
+        image: aluraMidiImg,
+        title: 'Alura Midi',
+        category: ['JavaScript'],
+        path: 'https://aluramidi-ebon.vercel.app',
+        github: 'https://github.com/JRKreutzer/aluramidi'
+    },
+    {
+        id: 13,
+        image: aluraPlayImg,
+        title: 'Alura Play',
+        category: ['JavaScript', 'FetchAPI', 'Node.js', 'Json-server'],
+        path: 'https://alura-play-coral.vercel.app',
+        github: 'https://github.com/JRKreutzer/alura-play'
+    },
+    {
+        id: 14,
+        image: culturamaImg,
+        title: 'Culturama',
+        category: ['HTML', 'CSS'],
+        path: 'https://culturama-eight-alpha.vercel.app',
+        github: 'https://github.com/JRKreutzer/culturama'
+    },
+    {
+        id: 15,
+        image: fokusImg,
+        title: 'Fokus',
+        category: ['JavaScript', 'localStorage'],
+        path: 'https://fokus-six-mu.vercel.app',
+        github: 'https://github.com/JRKreutzer/fokus'
+    }
+]
+
+export const portfolioNav = [
+    {
+        name: 'All'
+    },
+    {
+        name: 'React'
+    },
+    {
+        name: 'Tailwind'
+    },
+    {
+        name: 'ContextAPI'
+    },
+    {
+        name: 'useParams'
+    },
+    {
+        name: 'FetchAPI'
+    },
+    {
+        name: 'UseReducer'
+    },
+    {
+        name: 'UseMemo'
+    },
+    {
+        name: 'Styled-Components'
+    },
+    {
+        name: 'Web Speech API'
+    },
+    {
+        name: 'Mobile First'
+    },
+    {
+        name: 'HTML'
+    },
+    {
+        name: 'CSS'
+    },
+    {
+        name: 'SwiperJS'
+    },
+    {
+        name: 'JavaScript'
+    },
+    {
+        name: 'Node.js'
+    },
+    {
+        name: 'Json-server'
+    },
+    {
+        name: 'localStorage'
+    },
+]
 
 export const testimoniais = [
     {

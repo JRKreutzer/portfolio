@@ -123,7 +123,6 @@ const Qualification = () => {
                             <div></div>
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
                             </div>
                             <div>
                                 <h3 className="qualification__title">Análise e Desenvolvimento de Sistemas</h3>
