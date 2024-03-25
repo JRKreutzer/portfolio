@@ -8,6 +8,7 @@ import Qualification from './components/Qualification';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
+import Work from './components/Work';
 import { LinkProvider } from './context/LinkContext';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Skills />
           <Services />
           <Qualification />
+          <Work />
           <Testimonials />
           <Contact />
         </main>
