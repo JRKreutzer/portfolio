@@ -5,7 +5,8 @@ const WorkItems = ({item}) => {
             <h3 className="work__title">{item.title}</h3>
             <div className="work__button">
                 <a href={item.path} target="_blank" rel="noreferrer" className="work__button-link">
-                    Protótipo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+                    Protótipo
+                     <i className="bx bx-right-arrow-alt work__button-icon"></i>
                 </a>
                 <a href={item.github} target="_blank" rel="noreferrer" className="work__button-link">
                     Github <i className="bx bx-right-arrow-alt work__button-icon"></i>
