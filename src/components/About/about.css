@@ -33,6 +33,7 @@
 .about__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    padding: 0 0.5rem;
 }
 
 .about__subtitle {
