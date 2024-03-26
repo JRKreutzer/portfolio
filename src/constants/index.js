@@ -63,7 +63,7 @@ export const about = [
         icon: 'bx bx-award'
     },
     {
-        titulo: 'Completados',
+        titulo: 'Concluídos',
         valor: ['20 + Projetos', '32 + Cursos'],
         icon: 'bx bx-briefcase-alt'
     },
