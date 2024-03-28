@@ -1,5 +1,5 @@
 import { testimonial1Img, testimonial2Img, testimonial3Img } from "../utils";
-import { academiaImg, aluraBooksImg, aluraBooksJSImg, aluraMidiImg, aluraPlayImg, aluraPlusImg, bookClubImg, brainwaveImg, cineTagImg, contextAPIImg, culturamaImg, fokusImg, numeroSecretoImg, numeroSecretoVozImg, spaceAppImg } from "../utils";
+import { academiaImg, aluraBooksImg, aluraBooksJSImg, aluraMidiImg, aluraPlayImg, aluraPlusImg, bookClubImg, brainwaveImg, cineTagImg, contextAPIImg, culturamaImg, fokusImg, numeroSecretoImg, numeroSecretoVozImg, spaceAppImg, aluraStudiesImg } from "../utils";
 
 export const links = [
     {
@@ -248,7 +248,7 @@ export const portfolio = [
         image: cineTagImg,
         title: 'Cine Tag',
         category: ['React', 'JavaScript', 'ContextAPI', 'useParams', 'FetchAPI'],
-        path: 'https://vercel.com/jrkreutzers-projects/cinetag',
+        path: 'https://cinetag-pi-ten.vercel.app',
         github: 'https://github.com/JRKreutzer/cinetag'
     },
     {
@@ -346,6 +346,14 @@ export const portfolio = [
         category: ['JavaScript', 'localStorage'],
         path: 'https://fokus-six-mu.vercel.app',
         github: 'https://github.com/JRKreutzer/fokus'
+    },
+    {
+        id: 16,
+        image: aluraStudiesImg,
+        title: 'Alura Studies',
+        category: ['React', 'TypeScript'],
+        path: 'https://alura-studies-wheat.vercel.app',
+        github: 'https://github.com/JRKreutzer/alura-studies'
     }
 ]
 
@@ -355,6 +363,12 @@ export const portfolioNav = [
     },
     {
         name: 'React'
+    },
+    {
+        name: 'JavaScript'
+    },
+    {
+        name: 'TypeScript'
     },
     {
         name: 'Tailwind'
@@ -391,9 +405,6 @@ export const portfolioNav = [
     },
     {
         name: 'SwiperJS'
-    },
-    {
-        name: 'JavaScript'
     },
     {
         name: 'Node.js'
