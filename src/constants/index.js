@@ -1,5 +1,5 @@
 import { testimonial1Img, testimonial2Img, testimonial3Img } from "../utils";
-import { academiaImg, aluraBooksImg, aluraBooksJSImg, aluraMidiImg, aluraPlayImg, aluraPlusImg, bookClubImg, brainwaveImg, cineTagImg, contextAPIImg, culturamaImg, fokusImg, numeroSecretoImg, numeroSecretoVozImg, spaceAppImg, aluraStudiesImg } from "../utils";
+import { academiaImg, aluraBooksImg, aluraBooksJSImg, aluraMidiImg, aluraPlayImg, aluraPlusImg, bookClubImg, brainwaveImg, cineTagImg, contextAPIImg, culturamaImg, fokusImg, numeroSecretoImg, numeroSecretoVozImg, spaceAppImg, aluraStudiesImg, aluroniRouterImg } from "../utils";
 
 export const links = [
     {
@@ -52,7 +52,7 @@ export const socials = [
     },
     {
         classe: ['uil uil-linkedin-alt', 'bx bxl-linkedin'],
-        path: 'https://www.linkedin.com/in/josé-kreutzer-614372173/',
+        path: 'https://www.linkedin.com/in/josé-rodolfo-kreutzer-614372173/',
     }
 ]
 
@@ -277,6 +277,14 @@ export const portfolio = [
     },
     {
         id: 7,
+        image: aluroniRouterImg,
+        title: 'Aluroni Router',
+        category: ['TypeScript', 'React', 'React Router'],
+        path: 'https://aluroni-router-jrk.vercel.app',
+        github: 'https://github.com/JRKreutzer/aluroni-router'
+    },
+    {
+        id: 7,
         image: numeroSecretoVozImg,
         title: 'Número Secreto com Voz',
         category: ['JavaScript', 'Web Speech API'],
@@ -369,6 +377,9 @@ export const portfolioNav = [
     },
     {
         name: 'TypeScript'
+    },
+    {
+        name: 'React Router'
     },
     {
         name: 'Tailwind'
