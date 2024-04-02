@@ -284,14 +284,6 @@ export const portfolio = [
         github: 'https://github.com/JRKreutzer/aluroni-router'
     },
     {
-        id: 7,
-        image: numeroSecretoVozImg,
-        title: 'Número Secreto com Voz',
-        category: ['JavaScript', 'Web Speech API'],
-        path: 'https://jogo-numero-secreto-reconhecimento-cbmk90aiy.vercel.app',
-        github: 'https://github.com/JRKreutzer/jogo-numero-secreto-reconhecimento-voz'
-    },
-    {
         id: 8,
         image: aluraBooksImg, 
         title: 'Alura Books',
@@ -362,7 +354,15 @@ export const portfolio = [
         category: ['React', 'TypeScript'],
         path: 'https://alura-studies-wheat.vercel.app',
         github: 'https://github.com/JRKreutzer/alura-studies'
-    }
+    },
+    {
+        id: 17,
+        image: numeroSecretoVozImg,
+        title: 'Número Secreto com Voz',
+        category: ['JavaScript', 'Web Speech API'],
+        path: 'https://jogo-numero-secreto-reconhecimento-cbmk90aiy.vercel.app',
+        github: 'https://github.com/JRKreutzer/jogo-numero-secreto-reconhecimento-voz'
+    },
 ]
 
 export const portfolioNav = [

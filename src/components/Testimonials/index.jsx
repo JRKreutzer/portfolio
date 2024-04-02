@@ -16,6 +16,7 @@ const Testimonials = () => {
         <section className="testimonials container section">
             <h2 className="section__title">Depoimentos</h2>
             <span className="section__subtitle">O que dizem sobre mim</span>
+            <span className="section__subtitle">{'(Sessão em construção. O conteúdo atual é meramente ilustrativo e está sujeito a alterações.)'}</span>
 
             <Swiper 
                 className="testimonials__container"
