@@ -1,5 +1,5 @@
 import { testimonial1Img, testimonial2Img, testimonial3Img } from "../utils";
-import { academiaImg, aluraBooksImg, aluraBooksJSImg, aluraMidiImg, aluraPlayImg, aluraPlusImg, bookClubImg, brainwaveImg, cineTagImg, contextAPIImg, culturamaImg, fokusImg, numeroSecretoImg, numeroSecretoVozImg, spaceAppImg, aluraStudiesImg, aluroniRouterImg } from "../utils";
+import { academiaImg, aluraBooksImg, aluraBooksJSImg, aluraMidiImg, aluraPlayImg, aluraPlusImg, bookClubImg, brainwaveImg, cineTagImg, contextAPIImg, culturamaImg, fokusImg, numeroSecretoImg, numeroSecretoVozImg, spaceAppImg, aluraStudiesImg, aluroniRouterImg, amigoSecretoJestImg } from "../utils";
 
 export const links = [
     {
@@ -279,7 +279,7 @@ export const portfolio = [
         id: 7,
         image: aluroniRouterImg,
         title: 'Aluroni Router',
-        category: ['TypeScript', 'React', 'React Router'],
+        category: ['TypeScript', 'React', 'React Router Dom'],
         path: 'https://aluroni-router-jrk.vercel.app',
         github: 'https://github.com/JRKreutzer/aluroni-router'
     },
@@ -363,6 +363,14 @@ export const portfolio = [
         path: 'https://jogo-numero-secreto-reconhecimento-cbmk90aiy.vercel.app',
         github: 'https://github.com/JRKreutzer/jogo-numero-secreto-reconhecimento-voz'
     },
+    {
+        id: 18,
+        image: amigoSecretoJestImg,
+        title: 'Testes com Jest',
+        category: ['Jest', 'TypeScript', 'React', 'React Router Dom', 'Recoil'],
+        path: 'https://amigo-secreto-jest-eight.vercel.app',
+        github: 'https://github.com/JRKreutzer/react-ts-testes-jest'
+    }
 ]
 
 export const portfolioNav = [
@@ -379,7 +387,13 @@ export const portfolioNav = [
         name: 'TypeScript'
     },
     {
-        name: 'React Router'
+        name: 'Jest'
+    },
+    {
+        name: 'React Router Dom'
+    },
+    {
+        name: 'Recoil'
     },
     {
         name: 'Tailwind'

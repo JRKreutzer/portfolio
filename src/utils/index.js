@@ -21,6 +21,7 @@ import numeroSecretoVoz from "../assets/numeroSecretoVoz.png"
 import spaceApp from "../assets/spaceApp.png"
 import aluraStudies from "../assets/aluraStudies.png"
 import aluroniRouter from "../assets/aluroniRouter.png"
+import amigoSecretoJest from '../assets/amigo-secreto-jest.png'
 
 export const testimonial1Img = testimonial1
 export const testimonial2Img = testimonial2
@@ -43,3 +44,4 @@ export const numeroSecretoVozImg = numeroSecretoVoz
 export const spaceAppImg = spaceApp
 export const aluraStudiesImg = aluraStudies
 export const aluroniRouterImg = aluroniRouter
+export const amigoSecretoJestImg = amigoSecretoJest
